@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { MessagePage } from "../src/PresenterAndContainer/index";
-
+import { text } from "./PresenterAndContainer/helpers";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        {text}
         <MessagePage />
         {/*<img src={logo} className="App-logo" alt="logo" />
         <p>
