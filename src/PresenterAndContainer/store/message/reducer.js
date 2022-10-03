@@ -12,7 +12,7 @@ export const initialState = {
 };
 
 export const messageReducer = (state = initialState, action) => {
-  switch (action.type) {
+  switch (action?.type) {
     case ADD_MESSAGE_LOADING: {
       return {
         ...state,
